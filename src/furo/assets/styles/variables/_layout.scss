@@ -10,4 +10,6 @@ $content-padding--small: 1rem;
 $content-width: 36rem;
 $sidebar-width: 14rem;
 $aside-width: 13rem;
+$content-padded-width: $content-width + 2 * $content-padding;
+$content-padded-width--small: $content-width + 2 * $content-padding--small;
 $full-width: $content-width + $content-padding + $content-padding--for-aside + 2 * $sidebar-width;
